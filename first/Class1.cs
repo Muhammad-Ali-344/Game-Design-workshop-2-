@@ -8,7 +8,7 @@ public class Assignment1
 		int marks = 91; ;
 		bool ispass = true;
 		float Gpa = 4.0;
-		String studentname = "Saad";
+		String studentname = "Ahad";
 		int marks = 80;
 		bool ispass = true;
 		float Gpa = 4.0;
