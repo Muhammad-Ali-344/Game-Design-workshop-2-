@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
 public class Calculator
 {
-	public static void main Class1()
+	public static void Main()
 
 	{
         while (true)
@@ -19,10 +19,10 @@ public class Calculator
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter first number: ");
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter second number: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter First number: ");
+            float num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Second number: ");
+            float num2 = Convert.ToInt32(Console.ReadLine());
 
             if (choice == 1)
             {
@@ -54,32 +54,32 @@ public class Calculator
             }
         }
     }
-    public static void Add(double num1, double num2)
+    public static void Add(float num1, float num2)
     {
-        double result = num1 + num2;
+        float Ans = num1 + num2;
         Console.WriteLine("***************************");
-        Console.WriteLine("Result: " + result);
+        Console.WriteLine("Ans: " + Ans);
     }
 
-    public static void Subtract(double num1, double num2)
+    public static void Subtract(float num1, float num2)
     {
-        double result = num1 - num2;
+        float Ans = num1 - num2;
         Console.WriteLine("***************************");
-        Console.WriteLine("Result: " + result);
+        Console.WriteLine("Ans: " + Ans);
     }
 
-    public static void Multiply(double num1, double num2)
+    public static void Multiply(float num1, float num2)
     {
-        double result = num1 * num2;
+        float Ans = num1 * num2;
         Console.WriteLine("***************************");
-        Console.WriteLine("Result: " + result);
+        Console.WriteLine("Ans: " + Ans);
     }
 
-    public static void Divide(double num1, double num2)
+    public static void Divide(float num1, float num2)
     {
-        double result = num1 / num2;
+        float Ans = num1 / num2;
         Console.WriteLine("***************************");
-        Console.WriteLine("Result: " + result);
+        Console.WriteLine("Ans: " + Ans);
     }
 
 
